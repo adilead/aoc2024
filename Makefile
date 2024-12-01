@@ -7,7 +7,8 @@ INCLUDE_DIR = include
 EXE_DIR = bin
 
 # List of days
-DAYS = 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24
+DAYS = 1 2
+# DAYS = 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24
 
 # Pattern rule for compiling .cpp files to .o
 $(BUILD_DIR)/%.o: $(SRC_DIR)/%.cpp

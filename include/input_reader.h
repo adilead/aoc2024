@@ -20,6 +20,9 @@ namespace input_reader {
         while (std::getline(file, line)) {
             lines.push_back(line);
         }
+        if(lines[lines.size()-1] == "") {
+            lines.pop_back();
+        }
 
         file.close();
         return lines;
